@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5505370325E3A68C002CD702 /* RadarChartGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5505370225E3A68C002CD702 /* RadarChartGrid.swift */; };
+		5505370725E3A77D002CD702 /* RadarChartPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5505370625E3A77D002CD702 /* RadarChartPath.swift */; };
+		5505370A25E3A7CE002CD702 /* RadarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5505370925E3A7CE002CD702 /* RadarChart.swift */; };
 		557F67C125E3A55E002F5A66 /* SwiftUI_LibraryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557F67C025E3A55E002F5A66 /* SwiftUI_LibraryApp.swift */; };
 		557F67C325E3A55E002F5A66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557F67C225E3A55E002F5A66 /* ContentView.swift */; };
 		557F67C525E3A55F002F5A66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557F67C425E3A55F002F5A66 /* Assets.xcassets */; };
 		557F67C825E3A55F002F5A66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557F67C725E3A55F002F5A66 /* Preview Assets.xcassets */; };
+		5598360125E43E8200AC13CC /* CGFloat+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598360025E43E8200AC13CC /* CGFloat+Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5505370225E3A68C002CD702 /* RadarChartGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarChartGrid.swift; sourceTree = "<group>"; };
+		5505370625E3A77D002CD702 /* RadarChartPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarChartPath.swift; sourceTree = "<group>"; };
+		5505370925E3A7CE002CD702 /* RadarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarChart.swift; sourceTree = "<group>"; };
 		557F67BD25E3A55E002F5A66 /* SwiftUI Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		557F67C025E3A55E002F5A66 /* SwiftUI_LibraryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LibraryApp.swift; sourceTree = "<group>"; };
 		557F67C225E3A55E002F5A66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		557F67C425E3A55F002F5A66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		557F67C725E3A55F002F5A66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		557F67C925E3A55F002F5A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5598360025E43E8200AC13CC /* CGFloat+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Constants.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5505370125E3A664002CD702 /* RadarChart */ = {
+			isa = PBXGroup;
+			children = (
+				5505370225E3A68C002CD702 /* RadarChartGrid.swift */,
+				5505370625E3A77D002CD702 /* RadarChartPath.swift */,
+				5505370925E3A7CE002CD702 /* RadarChart.swift */,
+			);
+			path = RadarChart;
+			sourceTree = "<group>";
+		};
 		557F67B425E3A55E002F5A66 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +75,8 @@
 				557F67C425E3A55F002F5A66 /* Assets.xcassets */,
 				557F67C925E3A55F002F5A66 /* Info.plist */,
 				557F67C625E3A55F002F5A66 /* Preview Content */,
+				5505370125E3A664002CD702 /* RadarChart */,
+				559835FF25E43E4900AC13CC /* Extensions */,
 			);
 			path = "SwiftUI Library";
 			sourceTree = "<group>";
@@ -67,6 +87,14 @@
 				557F67C725E3A55F002F5A66 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		559835FF25E43E4900AC13CC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5598360025E43E8200AC13CC /* CGFloat+Constants.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5598360125E43E8200AC13CC /* CGFloat+Constants.swift in Sources */,
+				5505370725E3A77D002CD702 /* RadarChartPath.swift in Sources */,
 				557F67C325E3A55E002F5A66 /* ContentView.swift in Sources */,
+				5505370A25E3A7CE002CD702 /* RadarChart.swift in Sources */,
 				557F67C125E3A55E002F5A66 /* SwiftUI_LibraryApp.swift in Sources */,
+				5505370325E3A68C002CD702 /* RadarChartGrid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
